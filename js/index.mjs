@@ -15,10 +15,10 @@ RouteComponentMap.set(basePath + '404', NotFoundPage);
 
 function init() {
   const path = window.location.pathname;
-  let RouteComponent = RouteComponentMap.get(path === basePath ? '/home' : path);
+  let RouteComponent = RouteComponentMap.get(path === basePath ? basePath + 'home' : path);
 
   if(!RouteComponent) {
-      RouteComponent = RouteComponentMap.get('/404');
+      RouteComponent = RouteComponentMap.get(basePath + '404');
   }
   
   BaseLayout.appendChild(RouteComponent);
