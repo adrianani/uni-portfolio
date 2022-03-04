@@ -1,4 +1,4 @@
-export default function createElement(html, css) {
+export default function createComponent(html, css) {
   const template = document.createElement('template');
 
   if (css) {

@@ -1,4 +1,35 @@
+@font-face {
+    font-family: "Noto Sans";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/NotoSans-BoldItalic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/NotoSans-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Noto Sans";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/NotoSans-Italic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/NotoSans-Regular.ttf") format("ttf");
+}
+
 body {
     background-color: black;
     margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
 }
